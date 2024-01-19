@@ -1,0 +1,111 @@
+
+
+*
+{
+  margin: 0;
+
+padding: 0;
+
+box-sizing: border-box;
+
+
+font-family: 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+}
+html,
+body {
+background-color: aliceblue;
+
+}
+header{
+
+background-color: black;
+padding: 20px;
+text-align: center;
+    color:white ;
+}
+
+main{
+margin:30px auto;
+width: 800px;
+
+padding: 30px;
+
+text-align: center;
+}
+
+main > div > h1
+
+{
+
+font-size: 20px;
+    
+}
+main > div > p{
+
+font-size: 14px;
+
+}
+
+.container{
+  background-color: gray;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+box-shadow: 5px 5px 12px rgb(231, 231,232);
+border-radius: 5px;
+}
+
+
+.food
+{
+padding: 5px 10px;
+outline: none;
+font-weight: bold;
+width: 100%;
+margin-right: 25px;
+border:  1px ghostwhite;
+background-color: aqua;
+border-radius: 5px;
+}
+.btn{
+padding: 6px 10px;
+background-color:blue ;
+color: white;
+border-radius: 7px;
+border: none;
+text-transform: uppercase;
+}
+.list{
+margin: 15px;
+background-color:red;
+list-style: none;
+text-align: center;
+box-shadow: 5px 5px 12px rgb(231, 231,232);
+border-radius: 5px;
+}
+.list .fooditem{
+padding: 6px 10px;
+font-size: 14px;
+border: 1.5px solid white;
+margin: 8px 0;
+color: blue;
+}
+.list .fooditem:hover{
+background-color: blue;
+color: aqua;
+cursor: pointer;
+
+
+}
+
+.alert{
+
+padding: 10px;
+background-color:blue;
+color: white;
+border-radius: 5px;
+text-align: left;
+margin: 10px;
+}
+
+
